@@ -21,7 +21,7 @@ import java.util.Map;
 public class HelloController {
     @RequestMapping("/hello")
     public List<Map<String, String>> hello() {
-
+        //增加commit
         List<Map<String, String>> items = new ArrayList<>();
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
